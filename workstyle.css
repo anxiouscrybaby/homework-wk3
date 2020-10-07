@@ -1,0 +1,265 @@
+html{
+    box-sizing: border-box;
+    height: 940px;
+    width: 1260px;
+    margin: auto;
+}
+body{
+    background-color: #edf2c5;
+}
+
+header{
+    display: flex;
+    margin-left: 160px;
+}
+
+article{
+    margin-left: 160px;
+    margin-right: 160px;
+    height: 713px;
+}
+
+footer{
+    width: 1260px;
+    height: 60px;
+    background-color: #778A50;
+}
+
+nav{
+    width: 940px;
+    background-color: #778A50;   
+    margin-left: 160px;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    width: 270px;
+    height: 62px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #778a50;
+    margin: 36px 469px 5px 0px;
+    text-align: left;
+}
+
+.icon{
+    display: flex;
+    list-style: none;
+    height: 25px;
+    margin-top: 60px;
+}
+
+.fb{
+    margin-right: 10px;
+}
+
+.ig{
+    margin-right: 10px;
+}
+
+.ijbox{
+    display: flex;
+    list-style: none;
+    height: 25px;
+    margin-top: 60px;
+}
+
+.WHAT{
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    border: 0;
+    margin: 60px 0px 18px 809px;
+    background-color: #778a50;
+}
+
+.login{
+    width: 58px;
+    border: solid 1px #778a50;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.join{
+    width: 47px;
+    border: solid 1px #778a50;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.loginword{
+    width: 46px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #778a50;
+    margin: 0;
+    padding: 4px 6px;
+}
+
+.loginword:hover{
+    color: #EDF2C5;
+    background-color: #778A50;
+}
+
+.joinword{
+    width: 35px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #778a50;
+    margin: 0;
+    padding: 4px 6px;
+}
+
+.joinword:hover{
+    color: #EDF2C5;
+    background-color: #778A50;
+}
+
+.list{
+    display: flex;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    list-style: none;
+    font-family: Arial;
+    margin: 10px 30px 11px 30px;
+    font-weight: 900;
+}
+
+.link{
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #EDF2C5;
+}
+
+.mainimg{
+    width: 940px;
+    height: 448px;
+    object-fit: contain;
+    margin-top: 20px;
+    background-color: #778a50;
+    border-radius: 3px;
+}
+
+.info {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    height: 45px;
+    margin-top: 30px;
+}
+
+.vegetableimg {
+    border-radius: 3px;
+    background-color: #778a50;
+}
+
+.imgbox{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+h2{
+    width: 98px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-align: left;
+    color: #EDF2C5;
+    margin: 0;
+    padding: 10px 316px 12px 30px;
+}
+
+.contact{
+    border-radius: 3px;
+    background-color: #778a50;
+}
+
+.contitle{
+    width: 69px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-align: left;
+    color: #EDF2C5;
+    margin: 0;
+    padding: 10px 345px 12px 30px;
+}
+
+.contactbox{
+    height: 140px;
+    background-color: #f7fbda;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+.cabout{
+    width: 414px;
+    height: 44px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: left;
+    color: #7d7d7d;
+    padding: 15px;
+    margin: 0;
+}
+
+.line{
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin: 0 auto;
+    border: 0;
+}
+
+.call{
+    height: 35px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.75;
+    text-align: left;
+    color: #7d7d7d;
+    padding: 15px 232px 15px 15px;
+    margin: 0;
+}
+
+.right{
+    width: 301px;
+    height: 14px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1;
+    text-align: left;
+    color: #EDF2C5;
+    padding: 23px 479px 23px 480px;
+    margin: 0;
+}
