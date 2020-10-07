@@ -63,7 +63,7 @@ h1{
     margin-right: 10px;
 }
 
-.ijbox{
+.ljbox{
     display: flex;
     list-style: none;
     height: 25px;
@@ -170,18 +170,8 @@ h1{
     margin-top: 30px;
 }
 
-.vegetableimg {
-    border-radius: 3px;
-    background-color: #778a50;
-}
 
-.imgbox{
-    display: flex;
-    margin-top: 15px;
-    margin-bottom: 35px;
-    padding: 0;
-    justify-content: space-between;
-}
+
 
 h2{
     width: 98px;
@@ -195,8 +185,20 @@ h2{
     margin: 0;
     padding: 10px 316px 12px 30px;
 }
+.imgbox{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    padding: 0;
+    justify-content: space-between;
+}
 
+.vegetableimg {
+    border-radius: 3px;
+    background-color: #778a50;
+}
 .contact{
+    width: 444px;
     border-radius: 3px;
     background-color: #778a50;
 }
